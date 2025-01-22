@@ -1,6 +1,6 @@
 # Custom Components and Integrations for Home Assistant
 
-[![License](https://img.shields.io/github/license/coichedid/coichedid-custom-component?style=for-the-badge)](https://github.com/coichedid/coichedid-custom-component/LICENSE)
+[![License](https://img.shields.io/github/license/coichedid/coichedid-custom-component?style=for-the-badge)](https://github.com/coichedid/coichedid-custom-component/blob/main/LICENSE)
 [![](https://img.shields.io/github/actions/workflow/status/coichedid/coichedid-custom-component/pythonpackage.yaml?branch=main)](https://github.com/coichedid/coichedid-custom-component/actions)
 
 ## About
@@ -10,7 +10,7 @@ This repo contains a several custom components and integrations for [Home Assist
 Thanks for tutorial series
 on [aarongodfrey.dev](https://aarongodfrey.dev/home%20automation/building_a_home_assistant_custom_component_part_1/).
 
-Under folder [custom_components](https://github.com/coichedid/coichedid-custom-component/custom_components) it's possible to find those components.
+Under folder [custom_components](https://github.com/coichedid/coichedid-custom-component/tree/main/custom_components) it's possible to find those components.
 
 ## What It Is
 
