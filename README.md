@@ -1,6 +1,6 @@
 # Custom Components and Integrations for Home Assistant
 
-[![License](https://img.shields.io/github/license/coichedid/coichedid-custom-component?style=for-the-badge)](https://github.com/coichedid/coichedid-custom-component/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/coichedid/coichedid-custom-component?style=for-the-badge)](https://github.com/coichedid/coichedid-custom-component/blob/main/LICENSE.md)
 [![](https://img.shields.io/github/actions/workflow/status/coichedid/coichedid-custom-component/pythonpackage.yaml?branch=main)](https://github.com/coichedid/coichedid-custom-component/actions)
 
 ## About
