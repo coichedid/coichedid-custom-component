@@ -1,20 +1,20 @@
-# Github Custom for Home Assistant
+# Custom Components and Integrations for Home Assistant
 
 [![](https://img.shields.io/github/license/coichedid/coichedid-custom-component?style=for-the-badge)](LICENSE)
 [![](https://img.shields.io/github/actions/workflow/status/coichedid/coichedid-custom-component/pythonpackage.yaml?branch=main)](https://github.com/coichedid/coichedid-custom-component/actions)
 
 ## About
 
-This repo contains a custom component for [Home Assistant](https://www.home-assistant.io) that was created in a tutorial series
+This repo contains a several custom components and integrations for [Home Assistant](https://www.home-assistant.io) that was created to abstract some unsupported Tuya devices.
+
+Thanks for tutorial series
 on [aarongodfrey.dev](https://aarongodfrey.dev/home%20automation/building_a_home_assistant_custom_component_part_1/).
 
-The tutorial walks through the steps to create a custom component for use in Home Assistant.
-
-[Part 1: Project Structure and Basics](https://aarongodfrey.dev/home%20automation/building_a_home_assistant_custom_component_part_1/)
+Under folder [custom_components](https://github.com/coichedid/coichedid-custom-component/custom_components) it's possible to find those components.
 
 ## What It Is
 
-An integration that monitors [GitHub](https://github.com/) repositories specified in a `configuration.yaml` file.
+Under construction.
 
 ## Running Tests
 
