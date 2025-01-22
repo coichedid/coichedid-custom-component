@@ -1,7 +1,7 @@
 # Github Custom for Home Assistant
 
 [![](https://img.shields.io/github/license/boralyl/github-custom-component-tutorial?style=for-the-badge)](LICENSE)
-[![](https://img.shields.io/github/workflow/status/boralyl/github-custom-component-tutorial/Python%20package?style=for-the-badge)](https://github.com/coichedid/coichedid-custom-component/actions)
+[![](https://img.shields.io/github/workflow/status/coichedid/coichedid-custom-component/Python%20package?style=for-the-badge)](https://github.com/coichedid/coichedid-custom-component/actions)
 
 ## About
 
