@@ -1,11 +1,11 @@
 {
+  "domain": "github_custom",
+  "name": "Github Custom",
   "codeowners": ["@coichedid"],
   "config_flow": false,
   "dependencies": [],
   "documentation": "https://github.com/coichedid/coichedid-custom-component",
-  "domain": "github_custom",
   "iot_class": "cloud_polling",
-  "name": "Github Custom",
   "requirements": [
     "gidgethub[aiohttp]==4.1.1",
     "legacy-cgi"
