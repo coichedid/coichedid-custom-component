@@ -1,0 +1,44 @@
+{
+    "config": {
+      "error": {
+        "auth": "O token de autenticação fornecido não é válido.",
+        "invalid_path": "O caminho fornecido não é válido. Deve estar no formato `usuario/nome-do-repositorio`."
+      },
+      "step": {
+        "user": {
+          "data": {
+            "access_token": "Token de Acesso do GitHub",
+            "url": "URL do servidor GitHub Enterprise"
+          },
+          "description": "Insira suas credenciais do GitHub.",
+          "title": "Autenticação"
+        },
+        "repo": {
+          "data": {
+            "add_another": "Adicionar outro repositório?",
+            "path": "Caminho para o repositório, por exemplo, home-assistant/core",
+            "name": "Nome do sensor."
+          },
+          "description": "Adicione um repositório do GitHub, marque a caixa para adicionar outro.",
+          "title": "Adicionar Repositório do GitHub"
+        }
+      }
+    },
+    "options": {
+      "error": {
+        "invalid_path": "O caminho fornecido não é válido. Deve estar no formato `usuario/nome-do-repositorio` e ser um repositório válido do GitHub."
+      },
+      "step": {
+        "init": {
+          "title": "Gerenciar Repositórios",
+          "data": {
+            "repos": "Repositórios Existentes: Desmarque qualquer repositório que você deseja remover.",
+            "path": "Novo Repositório: Caminho para o repositório, por exemplo, home-assistant-core",
+            "name": "Novo Repositório: Nome do sensor."
+          },
+          "description": "Remova repositórios existentes ou adicione um novo repositório."
+        }
+      }
+    }
+  }
+  

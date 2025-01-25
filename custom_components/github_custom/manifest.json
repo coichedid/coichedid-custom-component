@@ -2,7 +2,7 @@
   "domain": "github_custom",
   "name": "Github Custom",
   "codeowners": ["@coichedid"],
-  "config_flow": false,
+  "config_flow": true,
   "dependencies": [],
   "documentation": "https://github.com/coichedid/coichedid-custom-component",
   "iot_class": "cloud_polling",

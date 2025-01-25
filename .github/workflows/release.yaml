@@ -20,16 +20,10 @@ on:
           - "patch"
           - "minor"
           - "major"
-      component_path:
-        type: string
-        description: "component relative path including custom_components/"
-      component_package_name:
-        type: string
-        description: "component package name with .zip extension"
 
 defaults:
   run:
-    working-directory: ${{ inputs.component_path }}
+    working-directory: custom_components/github_custom
 
 jobs:
   publish:
@@ -56,5 +50,5 @@ jobs:
           SEMANTIC_RELEASE_FORCE_RELEASE: ${{ inputs.release_type }}
           SEMANTIC_RELEASE_CMD_PREPARE: |
             yq -i '.version = "${nextRelease.version}"' manifest.json
-            zip ${{inputs.component_package_name}} -r ./
-          SEMANTIC_RELEASE_GITHUB_ASSETS: ${{inputs.component_package_name}}
+            zip github_custom.zip -r ./
+          SEMANTIC_RELEASE_GITHUB_ASSETS: "github_custom.zip"
